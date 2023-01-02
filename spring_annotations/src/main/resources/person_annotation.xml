@@ -10,8 +10,11 @@
 
 
 	<context:annotation-config />
-<bean name="person" class="com.spring.annotation.first.Person"></bean>
+	<!-- <bean name="person" class="com.spring.annotation.first.Person"> 
+</bean>-->
 
+	<context:component-scan
+		base-package="com.spring.annotation.first"></context:component-scan>
 
 
 
